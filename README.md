@@ -23,6 +23,8 @@ Opinion: rather get a controller that supports bluetooth.
 
 # Installing with make (recommended)
 
+special thanks to [this guy](https://github.com/paroj/xpad/blob/de37b6f97af60229b8e0f421ee1c6414477c5f77/Makefile) for making this work, simply a miracle.
+
 ```
 clone this repository
 cd xpad 
