@@ -32,8 +32,9 @@ and then confirm that it applied by doing the following :
 <img src="image.png">
 
 
-then you can compile the kernel
-i usually compile with genkernel and --initramfs parameter,
+then you can compile the kernel. 
+
+I usually compile with genkernel and --initramfs parameter,
 in order to put the modules inside the initramfs to load them at boot time
 
 
