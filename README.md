@@ -4,6 +4,7 @@ Driver for the Xbox/ Xbox 360/ Xbox 360 Wireless/ Xbox One Controllers
 This driver includes the latest changes in the upstream linux kernel and additionally carries the following staging changes:
 
 * support for more compatible devices
+* support for 8bitdo ultimate bluetooth controller, in order to use the 2.4ghz dongle
 * support for xbox360 class controllers, that need initialisation
 * support for xbox one elite paddles
 * xpad360w: power-off by long-pressing the power button
@@ -20,7 +21,23 @@ The adapter needs daemon in userspace, see: [medusalix/xow](https://github.com/m
 Opinion: rather get a controller that supports bluetooth.
 
 
-# Installing
+# Installing with make (recommended)
+
+```
+clone this repository
+cd xpad 
+make all && make modules_install
+and then confirm that it applied by doing the following :
+```
+<img src="image.png">
+
+
+then you can compile the kernel
+i usually compile with genkernel and --initramfs parameter,
+in order to put the modules inside the initramfs to load them at boot time
+
+
+# Installing with dkms
 ```
 sudo git clone https://github.com/paroj/xpad.git /usr/src/xpad-0.4
 sudo dkms install -m xpad -v 0.4
