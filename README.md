@@ -33,6 +33,9 @@ and then confirm that it applied by doing the following :
 ```
 <img src="image.png">
 
+Also, it won't work if it's not set as built-in in the kernel
+
+So search for xpad and make it built-in 
 
 then you can compile the kernel. 
 
