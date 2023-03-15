@@ -33,11 +33,9 @@ and then confirm that it applied by doing the following :
 ```
 <img src="image.png">
 
-Also, it won't work if it's not set as built-in in the kernel
+Also, it won't work if it's set as built-in in the kernel
 
-So search for xpad and make it built-in 
-
-then you can compile the kernel. 
+Make sure that it's not built-in,then you can compile the kernel. 
 
 I usually compile with genkernel and --initramfs parameter,
 in order to put the modules inside the initramfs to load them at boot time
