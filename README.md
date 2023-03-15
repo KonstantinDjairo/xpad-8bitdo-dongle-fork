@@ -37,6 +37,10 @@ Also, it won't work if it's set as built-in in the kernel
 
 Make sure that it's not built-in,then you can compile the kernel. 
 
+Another thing to notice is that you have to reinstall it everytime you compile a new kernel
+You got do a rmmod xpad and then go to the folder where you cloned xpad and reinstall it.
+Then you can call modprobe xpad .
+
 I usually compile with genkernel and --initramfs parameter,
 in order to put the modules inside the initramfs to load them at boot time
 
