@@ -66,6 +66,12 @@ sudo dkms remove -m xpad -v 0.4 --all
 sudo rm -rf /usr/src/xpad-0.4
 ```
 # Usage
+<br></br>
+For a complete tutorial, read this<br></br>
+> https://github.com/KonstantinDjairo/xpad-8bitdo-dongle-fork/blob/master/how_to_get_it_working.md
+<br></br>
+<br></br>
+
 This driver creates three devices for each attached gamepad
 
 1. /dev/input/js**N**
