@@ -72,6 +72,8 @@ For a complete tutorial, read this<br></br>
 <br></br>
 <br></br>
 
+also, i recommend looking at this commit: https://github.com/jdarn/xpad/commit/5541b25d721e04bc7bb3f9e7edb1e5202fd30ea5
+
 This driver creates three devices for each attached gamepad
 
 1. /dev/input/js**N**
